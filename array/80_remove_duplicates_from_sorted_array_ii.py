@@ -8,7 +8,6 @@
 # k用来判断元素的重复次数，重复一次时j = j + 1，其它重复次数j不移动，在出现不重复时将k置0
 # j用来存放应得数组
 
-
 class Solution:
     def removeDuplicates(self, nums):
         l = len(nums)
