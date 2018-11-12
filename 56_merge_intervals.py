@@ -9,6 +9,7 @@
 #第二种情况：[1, 3], [2, 6]；第二个的end > 第一个的end >= 第二个的start
 #第三种情况：[1, 2], [3, 6]; 第一个的end < 第二个的start
 
+
 class Interval:
     def __init__(self, s = 0, e = 0):
         self.start = s
